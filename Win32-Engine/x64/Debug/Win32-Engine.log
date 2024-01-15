@@ -1,0 +1,8 @@
+﻿  EntryPoint.cpp
+C:\Users\Game Dev\Win32-Engine\EntryPoint.cpp(96,14): warning C4305: '=': truncation from 'int' to 'uint8_t'
+C:\Users\Game Dev\Win32-Engine\EntryPoint.cpp(96,14): warning C4309: '=': truncation of constant value
+C:\Users\Game Dev\Win32-Engine\EntryPoint.cpp(102,16): warning C4305: '=': truncation from 'int' to 'uint8_t'
+C:\Users\Game Dev\Win32-Engine\EntryPoint.cpp(102,16): warning C4309: '=': truncation of constant value
+C:\Users\Game Dev\Win32-Engine\EntryPoint.cpp(104,14): warning C4305: '=': truncation from 'int' to 'uint8_t'
+C:\Users\Game Dev\Win32-Engine\EntryPoint.cpp(104,14): warning C4309: '=': truncation of constant value
+  Win32-Engine.vcxproj -> C:\Users\Game Dev\Win32-Engine\x64\Debug\Win32-Engine.exe
