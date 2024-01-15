@@ -21,16 +21,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EntryPoint.cpp">
+    <ClCompile Include="src\EntryPoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Renderers\PixelRenderer.cpp">
-      <Filter>Source Files\Renderers</Filter>
+    <ClCompile Include="src\Renderers\Renderer.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Renderers\SpriteRenderer.cpp">
-      <Filter>Source Files\Renderers</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Renderers\ShapeRenderer2D.cpp">
+    <ClCompile Include="src\Graphics\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,17 +35,8 @@
     <ClInclude Include="src\Graphics\Window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Renderers\PixelRenderer.h">
-      <Filter>Source Files\Renderers</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Utilities\BackBuffer.h">
-      <Filter>Source Files\Utilities</Filter>
-    </ClInclude>
     <ClInclude Include="src\Graphics\32BitPixel.h">
       <Filter>Source Files\Utilities</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Renderers\SpriteRenderer.h">
-      <Filter>Source Files\Renderers</Filter>
     </ClInclude>
     <ClInclude Include="src\Graphics\Sprite.h">
       <Filter>Source Files\Utilities</Filter>
@@ -56,7 +44,10 @@
     <ClInclude Include="src\Utilities\Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Renderers\ShapeRenderer2D.h">
+    <ClInclude Include="src\Renderers\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\Colours.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

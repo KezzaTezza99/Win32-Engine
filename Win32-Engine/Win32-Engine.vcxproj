@@ -127,19 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EntryPoint.cpp" />
-    <ClCompile Include="src\Renderers\PixelRenderer.cpp" />
-    <ClCompile Include="src\Renderers\ShapeRenderer2D.cpp" />
-    <ClCompile Include="src\Renderers\SpriteRenderer.cpp" />
+    <ClCompile Include="src\EntryPoint.cpp" />
+    <ClCompile Include="src\Graphics\Window.cpp" />
+    <ClCompile Include="src\Renderers\Renderer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Graphics\32BitPixel.h" />
-    <ClInclude Include="src\Renderers\ShapeRenderer2D.h" />
-    <ClInclude Include="src\Utilities\BackBuffer.h" />
+    <ClInclude Include="src\Renderers\Renderer.h" />
     <ClInclude Include="src\Graphics\Sprite.h" />
-    <ClInclude Include="src\Renderers\PixelRenderer.h" />
-    <ClInclude Include="src\Renderers\SpriteRenderer.h" />
     <ClInclude Include="src\Graphics\Window.h" />
+    <ClInclude Include="src\Utilities\Colours.h" />
     <ClInclude Include="src\Utilities\Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
